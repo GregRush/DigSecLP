@@ -1,0 +1,226 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    -webkit-boxsizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #e4e4e4;
+    padding-top: 8%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkgray;
+    padding: 1%;
+}
+
+.logoIcon {
+    width: 5%;
+}
+
+.logo {
+    font-size: 1.2em;
+}
+
+nav {
+    float: right;
+}
+
+.navb {
+    width: fit-content;
+}
+
+.navbuttons {
+    display: flex;
+    /*    align-items: flex-end;*/
+    /*    justify-content: space-around;*/
+    padding: 1%;
+    /*    width: fit-content;*/
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #f27a56;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #f27a56;
+}
+
+form {
+    text-align: center;
+}
+
+.submitB,
+.tryItButton {
+    width: 10em;
+    background-color: #e1f4ff;
+    margin: .5%;
+    position: relative;
+    bottom: auto;
+}
+
+.submitB:hover,
+.tryItButton:hover {
+    background-color: #f27a56;
+    transition: background-color 0.5s;
+}
+
+.icon {
+    width: 80px;
+}
+
+.briefInfo {
+    margin: auto 220px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin: 5%
+}
+
+.picIcon {
+    margin-right: 5%;
+}
+
+.Video {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*    margin: 15px 0;*/
+}
+
+.ctattl {
+    /*    color: ;*/
+    font-weight: bold;
+    font-size: 70%;
+    width: 100%;
+    background-color: #f27a56;
+
+}
+
+h3 {
+    margin: 1% 0;
+}
+
+.cta1,
+.cta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin: 1%;
+    padding: 0;
+
+}
+
+.servlist {
+    padding: 1%;
+    width: 250px;
+}
+
+footer {
+    width: 80%;
+    background-color: black;
+}
+
+.privTermCont {
+    text-align: right;
+
+}
+
+
+
+@media (max-width: 980px) {
+    .briefInfo {
+        width: 90%;
+        margin: auto;
+    }
+
+    .tryItButton {
+        width: 100%;
+    }
+}
+
+@media (max-width:845px) {
+    header {
+        width: 100%;
+    }
+
+    .titleEmail {
+        margin-top: 5%;
+    }
+
+}
+
+@media (max-width:664px) {
+
+    nav,
+    h1,
+    h2,
+    p,
+    ul,
+    .logo,
+    .cta {
+        font-size: 98%;
+        display: block;
+    }
+
+    .cta1,
+    .cta2 {
+        width: 100%;
+        a
+    }
+
+    .titleEmail {
+        margin-top: 10%;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width:356px) {
+    .titleEmail {
+        margin-top: 15%;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+}
